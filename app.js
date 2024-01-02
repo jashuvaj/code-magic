@@ -38,14 +38,14 @@ function sendEmail(name, email) {
     const transporter = nodemailer.createTransport({
         service: 'your_email_service', // Replace with your email service (e.g., 'gmail')
         auth: {
-            user: 'your_email@example.com',
-            pass: 'your_email_password',
+            user: 'jash9493@gmail.com',
+            pass: 'jvmpispj7',
         },
     });
 
     const mailOptions = {
-        from: 'your_email@example.com',
-        to: 'recipient@example.com', // Replace with the recipient's email
+        from: 'jash9493@gmail.com',
+        to: 'pubgfellow7@gmail.com', // Replace with the recipient's email
         subject: 'New Form Submission',
         text: Name: ${name}\nEmail: ${email},
     };
