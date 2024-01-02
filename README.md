@@ -1,0 +1,2 @@
+# code-magic
+example repo
