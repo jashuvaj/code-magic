@@ -36,7 +36,7 @@ app.listen(port, () => {
 // Function to send email
 function sendEmail(name, email) {
     const transporter = nodemailer.createTransport({
-        service: 'your_email_service', // Replace with your email service (e.g., 'gmail')
+        service: 'gmail', // Replace with your email service (e.g., 'gmail')
         auth: {
             user: 'jash9493@gmail.com',
             pass: 'jvmpispj7',
